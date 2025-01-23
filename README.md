@@ -43,6 +43,12 @@ The application is built with a three-tier architecture:
 - Java 21 or higher
 - Maven
 
+![Image](img1.png)
+![Image](img2.png)
+![Image](img3.png)
+![Image](img4.png)
+![Image](img5.png)
+
 ### Steps to Run
 
 1. Clone the repository.
