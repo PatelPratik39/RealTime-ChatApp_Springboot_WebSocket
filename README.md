@@ -96,19 +96,12 @@ The application is built with a three-tier architecture:
 ## Future Enhancements
 
 - Add private messaging between users.
-- Improve UI/UX with frameworks like React or Angular.
+- Improve UI/UX with frameworks like React .
 - Add database support to persist messages.
 - Implement authentication and authorization.
+- Deploy App to AWS
 
 ---
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-## Contributors
-
-- [Pratik Patel](mailto:ptl.pratik717@gmail.com)
 
