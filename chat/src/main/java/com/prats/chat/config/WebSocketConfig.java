@@ -10,17 +10,18 @@ import java.awt.*;
 
 @Configuration
 @EnableWebSocketMessageBroker
-public class WebSocket implements WebSocketMessageBrokerConfigurer {
+public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-       registry.addEndpoint("/wa").withSockJS();
+        registry.addEndpoint("/ws").withSockJS();
     }
 
     @Override
     public void configureMessageBroker(MessageBrokerRegistry registry) {
         registry.setApplicationDestinationPrefixes("/app");
         registry.enableSimpleBroker("/topic");
-;    }
+    }
 }
+
 
